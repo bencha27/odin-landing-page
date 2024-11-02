@@ -1,0 +1,29 @@
+* {
+  font-family: Roboto, Verdana, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  padding: 18px 180px;
+}
+
+#header-logo {
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: auto;
+}
+
+.header-nav {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+}
+
+header a {
+  font-size: 18px;
+  color: #E5E7EB;
+}
