@@ -1,13 +1,15 @@
 * {
   font-family: Roboto, Verdana, sans-serif;
   margin: 0;
+  font-size: 18px;
+  box-sizing: border-box;
 }
 
 header {
   background-color: #1F2937;
   color: #F9FAF8;
   display: flex;
-  padding: 18px 180px;
+  padding: 1rem 10rem;
 
   & #header-logo {
     font-size: 24px;
@@ -23,7 +25,6 @@ header {
   }
 
   & a {
-    font-size: 18px;
     color: #E5E7EB;
     font-weight: 300;
   }
@@ -33,7 +34,7 @@ header {
   display: flex;
   gap: 36px;
   background-color: #1F2937;
-  padding: 90px 180px;
+  padding: 5rem 10rem;
 
   & div {
     flex: 1 1 200px;
@@ -52,18 +53,16 @@ header {
   }
 
   & p {
-    font-size: 18px;
     color: #E5E7EB;
   }
 
   & button {
     background-color: #3882F6;
     color: #E5E7EB;
-    font-size: 18px;
     padding: 6px;
     border-radius: 9px;
     border-style: none;
-    width: 120px;
+    width: 126px;
   }
 
   & .hero-image {
@@ -76,14 +75,14 @@ header {
 }
 
 .info-section {
-  margin-bottom: 96px;
+  margin-bottom: 5rem;
 
   & h2 {
-    font-size: 36px;
+    font-size: 2rem;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
-    margin: 36px 0px;
+    margin: 2rem 0px;
   }
 
   & .info-card-container {
@@ -103,7 +102,6 @@ header {
   }
 
   & p {
-    font-size: 18px;
     color: #696969;
     font-weight: 300;
     text-align: center;
@@ -113,7 +111,7 @@ header {
 
 .quote-section {
   background-color: #E5E7EB;
-  padding: 96px 20%;
+  padding: 90px 22%;
 
   & #quote {
     font-size: 36px;
@@ -127,4 +125,54 @@ header {
     font-weight: 500;
     text-align: right;
   }
+}
+
+.call-to-action-section {
+  padding: 90px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & #call-to-action-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 9px;
+    padding: 36px 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 160px;
+  }
+
+  & #call-to-action {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  & p {
+    font-weight: 300;
+    color: #E5E7EB;
+  }
+
+  & button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 9px;
+    border-style: solid;
+    width: 126px;
+    height: 42px;
+    align-self: center;
+  }
+}
+
+footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-weight: 300;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
