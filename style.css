@@ -110,3 +110,21 @@ header {
     margin: 6px 0;
   }
 }
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 96px 20%;
+
+  & #quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    color: #1F2937;
+  }
+
+  & #quote-author {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
+  }
+}
