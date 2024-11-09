@@ -25,6 +25,7 @@ header {
   & a {
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: 300;
   }
 }
 
@@ -88,12 +89,24 @@ header {
   & .info-card-container {
     display: flex;
     justify-content: center;
+    gap: 54px;
+  }
+
+  & .info-card {
+    width: 160px;
   }
 
   & .info-image {
     border: 4px solid #3882F6;
     border-radius: 16px;
-    width: 160px;
     height: 160px;
+  }
+
+  & p {
+    font-size: 18px;
+    color: #696969;
+    font-weight: 300;
+    text-align: center;
+    margin: 6px 0;
   }
 }
